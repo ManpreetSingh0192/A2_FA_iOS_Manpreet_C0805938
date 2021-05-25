@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AEFB4B88265A4F610074D417 /* A2_FA_Manpreet_C0805938.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A2_FA_Manpreet_C0805938.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFB4B88265A4F610074D417 /* A2_FA_iOS_Manpreet_C0805938.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A2_FA_iOS_Manpreet_C0805938.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFB4B8B265A4F610074D417 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEFB4B8D265A4F610074D417 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AEFB4B8F265A4F610074D417 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		AEFB4B89265A4F610074D417 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEFB4B88265A4F610074D417 /* A2_FA_Manpreet_C0805938.app */,
+				AEFB4B88265A4F610074D417 /* A2_FA_iOS_Manpreet_C0805938.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AEFB4B87265A4F610074D417 /* A2_FA_Manpreet_C0805938 */ = {
+		AEFB4B87265A4F610074D417 /* A2_FA_iOS_Manpreet_C0805938 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEFB4B9F265A4F630074D417 /* Build configuration list for PBXNativeTarget "A2_FA_Manpreet_C0805938" */;
+			buildConfigurationList = AEFB4B9F265A4F630074D417 /* Build configuration list for PBXNativeTarget "A2_FA_iOS_Manpreet_C0805938" */;
 			buildPhases = (
 				AEFB4B84265A4F610074D417 /* Sources */,
 				AEFB4B85265A4F610074D417 /* Frameworks */,
@@ -107,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = A2_FA_Manpreet_C0805938;
+			name = A2_FA_iOS_Manpreet_C0805938;
 			productName = Flowers;
-			productReference = AEFB4B88265A4F610074D417 /* A2_FA_Manpreet_C0805938.app */;
+			productReference = AEFB4B88265A4F610074D417 /* A2_FA_iOS_Manpreet_C0805938.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AEFB4B83265A4F610074D417 /* Build configuration list for PBXProject "A2_FA_Manpreet_C0805938" */;
+			buildConfigurationList = AEFB4B83265A4F610074D417 /* Build configuration list for PBXProject "A2_FA_iOS_Manpreet_C0805938" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AEFB4B87265A4F610074D417 /* A2_FA_Manpreet_C0805938 */,
+				AEFB4B87265A4F610074D417 /* A2_FA_iOS_Manpreet_C0805938 */,
 			);
 		};
 /* End PBXProject section */
@@ -354,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AEFB4B83265A4F610074D417 /* Build configuration list for PBXProject "A2_FA_Manpreet_C0805938" */ = {
+		AEFB4B83265A4F610074D417 /* Build configuration list for PBXProject "A2_FA_iOS_Manpreet_C0805938" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEFB4B9D265A4F630074D417 /* Debug */,
@@ -363,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEFB4B9F265A4F630074D417 /* Build configuration list for PBXNativeTarget "A2_FA_Manpreet_C0805938" */ = {
+		AEFB4B9F265A4F630074D417 /* Build configuration list for PBXNativeTarget "A2_FA_iOS_Manpreet_C0805938" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEFB4BA0265A4F630074D417 /* Debug */,
