@@ -14,10 +14,12 @@
 		AEFB4B96265A4F610074D417 /* Flowers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEFB4B94265A4F610074D417 /* Flowers.xcdatamodeld */; };
 		AEFB4B98265A4F630074D417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFB4B97265A4F630074D417 /* Assets.xcassets */; };
 		AEFB4B9B265A4F630074D417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFB4B99265A4F630074D417 /* LaunchScreen.storyboard */; };
+		AEFB4BA6265A56D90074D417 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFB4BA5265A56D90074D417 /* Flower.swift */; };
+		AEFB4BAC265A6F5B0074D417 /* FlowersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFB4BAB265A6F5B0074D417 /* FlowersListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AEFB4B88265A4F610074D417 /* Flowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFB4B88265A4F610074D417 /* A2_FA_Manpreet_C0805938.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A2_FA_Manpreet_C0805938.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFB4B8B265A4F610074D417 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEFB4B8D265A4F610074D417 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AEFB4B8F265A4F610074D417 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		AEFB4B97265A4F630074D417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFB4B9A265A4F630074D417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEFB4B9C265A4F630074D417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFB4BA5265A56D90074D417 /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
+		AEFB4BAB265A6F5B0074D417 /* FlowersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +54,7 @@
 		AEFB4B89265A4F610074D417 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEFB4B88265A4F610074D417 /* Flowers.app */,
+				AEFB4B88265A4F610074D417 /* A2_FA_Manpreet_C0805938.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,24 +62,42 @@
 		AEFB4B8A265A4F610074D417 /* Flowers */ = {
 			isa = PBXGroup;
 			children = (
+				AEFB4BAA265A6F280074D417 /* Controller */,
+				AEFB4BA4265A56B00074D417 /* Model */,
 				AEFB4B8B265A4F610074D417 /* AppDelegate.swift */,
 				AEFB4B8D265A4F610074D417 /* SceneDelegate.swift */,
-				AEFB4B8F265A4F610074D417 /* ViewController.swift */,
 				AEFB4B91265A4F610074D417 /* Main.storyboard */,
 				AEFB4B97265A4F630074D417 /* Assets.xcassets */,
 				AEFB4B99265A4F630074D417 /* LaunchScreen.storyboard */,
 				AEFB4B9C265A4F630074D417 /* Info.plist */,
-				AEFB4B94265A4F610074D417 /* Flowers.xcdatamodeld */,
 			);
 			path = Flowers;
+			sourceTree = "<group>";
+		};
+		AEFB4BA4265A56B00074D417 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEFB4BA5265A56D90074D417 /* Flower.swift */,
+				AEFB4B94265A4F610074D417 /* Flowers.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEFB4BAA265A6F280074D417 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEFB4B8F265A4F610074D417 /* ViewController.swift */,
+				AEFB4BAB265A6F5B0074D417 /* FlowersListVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AEFB4B87265A4F610074D417 /* Flowers */ = {
+		AEFB4B87265A4F610074D417 /* A2_FA_Manpreet_C0805938 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEFB4B9F265A4F630074D417 /* Build configuration list for PBXNativeTarget "Flowers" */;
+			buildConfigurationList = AEFB4B9F265A4F630074D417 /* Build configuration list for PBXNativeTarget "A2_FA_Manpreet_C0805938" */;
 			buildPhases = (
 				AEFB4B84265A4F610074D417 /* Sources */,
 				AEFB4B85265A4F610074D417 /* Frameworks */,
@@ -85,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = Flowers;
+			name = A2_FA_Manpreet_C0805938;
 			productName = Flowers;
-			productReference = AEFB4B88265A4F610074D417 /* Flowers.app */;
+			productReference = AEFB4B88265A4F610074D417 /* A2_FA_Manpreet_C0805938.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AEFB4B83265A4F610074D417 /* Build configuration list for PBXProject "Flowers" */;
+			buildConfigurationList = AEFB4B83265A4F610074D417 /* Build configuration list for PBXProject "A2_FA_Manpreet_C0805938" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AEFB4B87265A4F610074D417 /* Flowers */,
+				AEFB4B87265A4F610074D417 /* A2_FA_Manpreet_C0805938 */,
 			);
 		};
 /* End PBXProject section */
@@ -141,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEFB4B90265A4F610074D417 /* ViewController.swift in Sources */,
+				AEFB4BAC265A6F5B0074D417 /* FlowersListVC.swift in Sources */,
 				AEFB4B8C265A4F610074D417 /* AppDelegate.swift in Sources */,
+				AEFB4BA6265A56D90074D417 /* Flower.swift in Sources */,
 				AEFB4B96265A4F610074D417 /* Flowers.xcdatamodeld in Sources */,
 				AEFB4B8E265A4F610074D417 /* SceneDelegate.swift in Sources */,
 			);
@@ -291,16 +315,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = 8XU7YRE9EN;
 				INFOPLIST_FILE = Flowers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.product.management.Flowers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.product.management;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,23 +336,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = 8XU7YRE9EN;
 				INFOPLIST_FILE = Flowers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.product.management.Flowers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.product.management;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AEFB4B83265A4F610074D417 /* Build configuration list for PBXProject "Flowers" */ = {
+		AEFB4B83265A4F610074D417 /* Build configuration list for PBXProject "A2_FA_Manpreet_C0805938" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEFB4B9D265A4F630074D417 /* Debug */,
@@ -335,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEFB4B9F265A4F630074D417 /* Build configuration list for PBXNativeTarget "Flowers" */ = {
+		AEFB4B9F265A4F630074D417 /* Build configuration list for PBXNativeTarget "A2_FA_Manpreet_C0805938" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEFB4BA0265A4F630074D417 /* Debug */,
